@@ -64,6 +64,14 @@ a {
 	color: #000
 }
 
+.proj-name {
+	color: white;
+}
+
+.proj-name:hover {
+	color: #ce72f3;
+}
+
 iframe {
 	border: 0;
 	outline: none;
@@ -317,7 +325,7 @@ img {
 	display: block;
 	justify-content: center;
 	align-items: center;
-	color: #CBFE00;
+	color: #ce72f3;
 	font-size: 1.125rem;
 	text-align: center;
 	opacity: 0
