@@ -184,7 +184,7 @@ img {
 	list-style: none;
 	display: flex;
 	align-items: center;
-	margin-top: 2.5rem
+	margin-top: 2.5rem;
 }
 
 .ds-social li {
@@ -193,6 +193,12 @@ img {
 
 .ds-social li:alst-child {
 	margin-right: 0
+}
+
+#bottom a {
+	background-color: #000;
+	color: #ce72f3;
+	text-decoration: none;
 }
 
 .ds-social a {
@@ -209,8 +215,12 @@ img {
 }
 
 .ds-social li:hover a {
-	background-color: #ce72f3;
-	color: #000
+	background-color: #000;
+	color: #ce72f3;
+}
+
+#bottom li:hover a {
+	background-color: #ffffff;
 }
 
 .ds-banner figure {
