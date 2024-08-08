@@ -130,7 +130,7 @@ h6 {
 	font-family: 'DM Serif Display', serif;
 }
 
-span {
+span, p {
 	font-size: 20px;
 }
 
@@ -528,6 +528,23 @@ img {
 .back:hover {
 	color: #ce72f3;
 }
+
+.fade {
+	opacity: 1;
+  }
+
+  .fade-in { animation: fadeIn 1.5s; }
+
+  @keyframes fadeIn {
+	0% {
+	  transform: translateY(30%);
+	  opacity: 0;
+	}
+	100% {
+	  transform: translateY(0%);
+	  opacity: 1;
+	}
+  }
 
 /*-------------------------------------------------------------------------------
  XS Style @media (max-width: 767px) 

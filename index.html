@@ -19,6 +19,8 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- Main CSS -->
     <link href="assets/css/styles.css" rel="stylesheet">
@@ -31,7 +33,7 @@
     <!-- header -->
     <header class="ds-header">
         <div class="container">
-            <div class="ds-logo">
+            <div class="ds-logo fade-in">
                 <a href="index.html">ot</a>
             </div>
         </div>
@@ -42,23 +44,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12  col-md-6  col-lg-7  col-xl-7  col-xxl-7 ds-banner-left">
-                    <h1 class="ds-banner-hed">
+                    <h1 class="ds-banner-hed fade-in">
                         Hi, I'm Olivia!
                     </h1>
                     <br>
-                    <span>
+                    <p class="intro-text fade-in">
                         I'm a rising senior at the University of Pittsburgh pursuing a B.S. in Interactive Design & Computer Science.
                         <br><br>2+ years of professional experience spanning UX Design, Front End Development, & academic design research.
-                    </span>
-                    <ul class="ds-social">
-                        <li><a href="https://www.github.com/oliviat10/" target="_blanck"><i class="ri-github-fill"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/olivia-terry/" target="_blanck"><i class="ri-linkedin-fill"></i></a></li>
-                        <li><a href="mailto:oliviaterry@gmail.com" target="_blanck"><i class="ri-mail-line"></i></a></li>
+                    </p>
+                    <ul class="ds-social fade-in">
+                        <li><a href="https://www.github.com/oliviat10/" target="_blank"><i class="ri-github-fill"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/olivia-terry/" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+                        <li><a href="mailto:oliviaterry@gmail.com" target="_blank"><i class="ri-mail-line"></i></a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-sm-12  col-md-6  col-lg-5  col-xl-5  col-xxl-5">
                     <figure>
-                        <img src="assets/images/banner-image.jpg" class="ds-image-shadow">
+                        <img src="assets/images/banner-image.jpg" class="ds-image-shadow fade-in">
                         <figcaption></figcaption>
                     </figure>
                 </div>
@@ -70,14 +72,14 @@
     <section class="ds-resume-section">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-12  col-md-6  col-lg-6  col-xl-6  col-xxl-6">
+                <div class="col-12 col-sm-12  col-md-6  col-lg-6  col-xl-6  col-xxl-6 fade">
                     <h2>Supporting product teams from ideation through deployment.</h2>
                 </div>
-                <div class="col-12 col-sm-12  col-md-6  col-lg-6  col-xl-6  col-xxl-6">
+                <div class="col-12 col-sm-12  col-md-6  col-lg-6  col-xl-6  col-xxl-6 fade">
                     <p>My interdisciplinary experience in research, design, & development has empowered me to walk hand-in-hand with users and stakeholders
                         throughout every step of the product lifecycle.
                     </p>
-                    <a href="assets/files/ux-engineer-resume.pdf" target="_blank" class="ds-download-button">View Resume <i class="ri-external-link-line"></i></a>
+                    <a href="assets/files/ux-engineer-resume.pdf" target="_blank" class="ds-download-button fade">View Resume <i class="ri-external-link-line"></i></a>
                 </div>
             </div>
         </div>
@@ -85,7 +87,7 @@
     <!-- projects -->
     <section class="ds-testimonials-section" id="projects">
         <div class="container">
-            <h2><span>projects </span>Check out some of my recent projects!</h2>
+            <h2 class="fade"><span class="fade">projects </span>Check out some of my recent projects!</h2>
             <div class="ds-testimonials-slider">
                 <div class="ds-projects-loop">                    
                     <figure>
@@ -93,7 +95,7 @@
                             <img src="assets/images/projects-1.png" class="ds-image-shadow transition">
                         </a>
                     </figure>
-                    <section>
+                    <section class="fade">
                         <a href="future-of-hospitality-work.html" class="proj-name"><h3>Future of Hospitality Work</h3></a>
                         <span>Portfolio website for an interscholastic, NSF-funded research team.</span>
                     </section>
@@ -104,7 +106,7 @@
                             <img src="assets/images/projects-2.jpg" class="ds-image-shadow transition">
                         </a>
                     </figure>
-                    <section>
+                    <section class="fade">
                         <a href="rumii.html" class="proj-name"><h3>Rumii</h3></a>
                         <span>Household management mobile app designed for roommates. Built using Flutter and Dart.</span>
                     </section>
@@ -115,7 +117,7 @@
                             <img src="assets/images/projects-3.png" class="ds-image-shadow transition">
                         </a>
                         </figure>
-                    <section>
+                    <section class="fade">
                         <a href="transit-siop.html" class="proj-name"><h3>Transit SIOP</h3></a>
                         <span>Angular web application for sales, inventory, and operations planning. Winner of Wabtec's
                             2023 Intern Tech Challenge.</span>
@@ -127,7 +129,7 @@
                             <img src="assets/images/projects-4.png" class="ds-image-shadow transition">
                         </a>
                     </figure>
-                    <section>
+                    <section class="fade">
                         <a href="visualizing-housekeeper-workloads.html" class="proj-name"><h3>Visualizing Housekeeper Workloads</h3></a>
                         <span>A case study of my research internship project with Carnegie Mellon University's Human-Computer
                             Interaction Institute.</span>
@@ -156,8 +158,8 @@
     </section>-->
     <!-- testimonials -->
     <section class="ds-email-section">
-            <h2>I'm available for work!</h2>
-            <a href="mailto:oliviaterry70@gmail.com" class="ds-email-button">Email Me <i class="ri-mail-line"></i></a>
+            <h2 class="fade">I'm available for work!</h2>
+            <a href="mailto:oliviaterry70@gmail.com" class="ds-email-button fade">Email Me <i class="ri-mail-line"></i></a>
             <!--
             <ul class="ds-social" id="bottom">
                 <li><a href="https://www.github.com/oliviat10/" target="_blanck"><i class="ri-github-fill"></i></a></li>
