@@ -149,6 +149,12 @@ img {
 	position: relative;
 }
 
+.project-header {
+	padding-top: 2.5rem;
+	padding-bottom: 4.8125rem;
+	position: relative;
+}
+
 .ds-logo a {
 	display: inline-block;
 	background-color: #ce72f3;
@@ -180,6 +186,8 @@ img {
 }
 
 /*.ds-banner-left{display: flex; justify-content: space-between; flex-direction: column;}*/
+
+
 .ds-social {
 	list-style: none;
 	display: flex;
@@ -269,6 +277,27 @@ img {
 	font-size: 0.75rem;
 	padding: 0.875rem 1.25rem;
 	margin-top: 30px
+}
+
+.ds-download-button i {
+	font-size: 1.125rem;
+	vertical-align: middle;
+}
+
+.ds-download-button:hover {
+	color: #000;
+	background-color: #ce72f3
+}
+
+.ds-email-button {
+	display: inline-block;
+	color: #000000;
+	border: 2px solid #000000;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	padding: 0.875rem 1.25rem;
+	margin-top: 15px
 }
 
 .ds-download-button i {
@@ -475,9 +504,9 @@ img {
 ----------------------------------------------------------------*/
 .ds-footer {
 	padding: 2.5rem 0;
-	text-align: center;
 	color: #CECECE;
-	font-size: 1.25rem
+	font-size: 1.25rem;
+	text-align: center;
 }
 
 .ds-footer a {
@@ -487,6 +516,17 @@ img {
 .ds-footer a:hover {
 	color: #CECECE;
 	text-decoration: underline;
+}
+
+.back {
+	color: #CECECE;
+	font-size: 1.25rem;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.back:hover {
+	color: #ce72f3;
 }
 
 /*-------------------------------------------------------------------------------
