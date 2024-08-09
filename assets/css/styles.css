@@ -553,14 +553,18 @@ img {
 	text-decoration: underline;
 }
 
-.back {
+.back, .next {
 	color: #CECECE;
 	font-size: 1.25rem;
 	vertical-align: middle;
 	text-decoration: none;
 }
 
-.back:hover {
+.next {
+	text-decoration:underline
+}
+
+.back:hover, .next:hover {
 	color: #ce72f3;
 }
 
