@@ -155,6 +155,15 @@ img {
 	position: relative;
 }
 
+#rumii-header {
+	background-image: url("/assets/images/rumii/rumii-cover.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	height: 385px;
+	margin-bottom: 3rem;
+}
+
 .ds-logo a {
 	display: inline-block;
 	background-color: #ce72f3;
@@ -511,6 +520,14 @@ img {
 
 .ds-footer a {
 	color: #CECECE
+}
+
+.details {
+	padding: 10px;
+}
+
+.rumii-proj {
+	width: 70%;
 }
 
 .ds-footer a:hover {
