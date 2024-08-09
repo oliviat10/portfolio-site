@@ -173,6 +173,15 @@ img {
 	margin-bottom: 3rem;
 }
 
+#transit-siop-header {
+	background-image: url("/assets/images/transit-siop/transit-siop-cover.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	height: 385px;
+	margin-bottom: 3rem;
+}
+
 .ds-logo a {
 	display: inline-block;
 	background-color: #ce72f3;
