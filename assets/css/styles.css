@@ -29,12 +29,12 @@ Theme Name: Borstein
 }
 
 html {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Space Grotesk';
 	background-color: #fff;
 }
 
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Space Grotesk';
 	overflow-x: hidden;
 	background-color: #fff;
 	font-weight: 400;
@@ -109,7 +109,7 @@ ul {
 
 @font-face {
 	font-family: 'DM Serif Display', serif;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Space Grotesk';
 }
 
 input:-webkit-autofill,
@@ -241,6 +241,7 @@ img {
 .ds-image-shadow {
 	box-shadow: 30px 30px #ce72f3;
 	border: 1px solid #000;
+	border-radius: 8px;
 }
 
 .headshot {
@@ -422,7 +423,7 @@ img {
 }
 
 .ds-projects-loop section h3 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Space Grotesk';
 	font-weight: 700;
 	font-size: 1.25rem;
 	padding-top: 0rem;
@@ -447,7 +448,7 @@ img {
 
 .ds-testimonials-section h2 span {
 	display: block;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Space Grotesk';
 	text-transform: uppercase;
 	color: #ce72f3;
 	font-weight: 600;
