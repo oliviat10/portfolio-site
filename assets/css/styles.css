@@ -36,7 +36,7 @@ html {
 body {
 	font-family: 'Space Grotesk';
 	overflow-x: hidden;
-	background-color: #fff;
+	background-color: #fffefb;
 	font-weight: 400;
 	font-style: normal;
 	color: #2a2a2a;
@@ -216,6 +216,10 @@ img {
 	font-weight: 600;
 	font-size: 1.5rem;
 	padding: 0 0.4375rem;
+	color: #2a2a2a;
+}
+
+#spiderweb {
 	color: #ce72f3;
 }
 
@@ -234,7 +238,7 @@ img {
 
 .intro {
 	text-align: left;
-	margin-bottom: 10rem;
+	margin-bottom: 5rem;
 	padding-left: 12rem;
 }
 
@@ -332,6 +336,7 @@ img {
 }
 
 .ri-arrow-down-line {
+	padding-top: 5rem;
 	color: #b1b1b1;
 	font-size: 2rem;
 	bottom: 0;
@@ -521,7 +526,7 @@ img {
 	top: 40%;
 	bottom: 0;
 	right: 0;
-	z-index: 2
+	z-index: 2;
 }
 
 .slick-prev {
