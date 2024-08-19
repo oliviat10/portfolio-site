@@ -72,6 +72,11 @@ a {
 	color: #ce72f3;
 }
 
+.proj-text {
+	width: 95%;
+	padding-left: 10px;
+}
+
 iframe {
 	border: 0;
 	outline: none;
@@ -239,9 +244,24 @@ img {
 }
 
 .ds-image-shadow {
-	box-shadow: 30px 30px #ce72f3;
 	border: 1px solid #000;
-	border-radius: 8px;
+	border-radius: 0px;
+}
+
+.rumii-proj {
+	box-shadow: 30px 30px #ff3e8b;
+}
+
+.siop-proj {
+	box-shadow: 30px 30px #7490ff;
+}
+
+.fow-proj {
+	box-shadow: 30px 30px #ace664;
+}
+
+.workload-proj {
+	box-shadow: 30px 30px #ffd0ea;
 }
 
 .headshot {
@@ -392,8 +412,20 @@ img {
 	position: relative;
 }
 
-.ds-projects-loop:hover figure img.ds-image-shadow {
-	box-shadow: 20px 20px #ce72f3;
+.ds-projects-loop:hover figure img.rumii-proj {
+	box-shadow: 20px 20px #ff3e8b;
+}
+
+.ds-projects-loop:hover figure img.siop-proj {
+	box-shadow: 20px 20px #7490ff;
+}
+
+.ds-projects-loop:hover figure img.fow-proj {
+	box-shadow: 20px 20px #ace664;
+}
+
+.ds-projects-loop:hover figure img.workload-proj {
+	box-shadow: 20px 20px #ffd0ea;
 }
 
 .ds-link-button {
@@ -583,10 +615,6 @@ img {
 
 .details {
 	padding: 10px;
-}
-
-.rumii-proj {
-	width: 70%;
 }
 
 .ds-footer a:hover {
@@ -859,9 +887,6 @@ img {
 }
 
 @media (max-width: 1300px) {
-	.ds-image-shadow {
-		box-shadow: 20px 20px #ce72f3;
-	}
 
 	.intro {
 		padding-left: 1.5rem;
