@@ -759,6 +759,11 @@ img {
 		transform: translateX(-50%);
 	}
 
+	.ds-social li {
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+
 	.ds-banner figure {
 		width: 90%;
 		margin: 0 auto;
