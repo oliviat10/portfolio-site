@@ -30,16 +30,16 @@ Theme Name: Borstein
 
 html {
 	font-family: 'Poppins', sans-serif;
-	background-color: #2A2A2A
+	background-color: #fff;
 }
 
 body {
 	font-family: 'Poppins', sans-serif;
 	overflow-x: hidden;
-	background-color: #2A2A2A;
+	background-color: #fff;
 	font-weight: 400;
 	font-style: normal;
-	color: #FFF;
+	color: #2a2a2a;
 	font-size: var(--font_14);
 }
 
@@ -65,7 +65,7 @@ a {
 }
 
 .proj-name {
-	color: white;
+	color: #2a2a2a;
 }
 
 .proj-name:hover {
@@ -182,25 +182,55 @@ img {
 	margin-bottom: 3rem;
 }
 
+.nav-bar {
+	justify-content: space-between;
+	position: absolute; 
+    top: 20px;
+    right: 10px;
+    margin: 10px;
+	display: flex;
+	margin-right: 60px;
+}
+
+.nav-bar a {
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.nav-link {
+	color: #2a2a2a;
+	font-size: 20px;
+}
+
+.nav-link:hover {
+	color: #ce72f3
+}
+
 .ds-logo a {
 	display: inline-block;
-	background-color: #ce72f3;
 	font-weight: 600;
-	font-size: 1.125rem;
+	font-size: 1.5rem;
 	padding: 0 0.4375rem;
-	color: #000
+	color: #ce72f3;
 }
 
 .ds-logo a:hover,
 .ds-logo a:focus {
-	color: #000
+	color: #2a2a2a;
+	
 }
 
 /*-----------------------------------------------------------------
   2. >>> Banner Style
 ----------------------------------------------------------------*/
-.ds-banner {
-	margin-bottom: 8.125rem
+.intro-banner {
+	text-align: center;
+}
+
+.intro {
+	text-align: left;
+	margin-bottom: 10rem;
+	padding-left: 12rem;
 }
 
 .ds-banner-hed {
@@ -210,6 +240,13 @@ img {
 
 .ds-image-shadow {
 	box-shadow: 30px 30px #ce72f3;
+	border: 1px solid #000;
+}
+
+.headshot {
+	margin-left: 10px;
+	height: 320px;
+	width: 320px;
 }
 
 /*.ds-banner-left{display: flex; justify-content: space-between; flex-direction: column;}*/
@@ -239,19 +276,19 @@ img {
 .ds-social a {
 	width: 30px;
 	height: 30px;
-	background-color: #ce72f3;
+	background-color: #2a2a2a;
 	border-radius: 100%;
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 1.25rem;
-	color: #2A2A2A
+	color: #ce72f3;
 }
 
 .ds-social li:hover a {
-	background-color: #000;
-	color: #ce72f3;
+	background-color: #ce72f3;
+	color: #2a2a2a;
 }
 
 #bottom li:hover a {
@@ -273,6 +310,12 @@ img {
 	padding-bottom: 2.5rem
 }
 
+.ri-arrow-down-line {
+	color: #b1b1b1;
+	font-size: 2rem;
+	bottom: 0;
+}
+
 /*-----------------------------------------------------------------
   3. >>> Resume Style
 ----------------------------------------------------------------*/
@@ -286,7 +329,8 @@ img {
 	line-height: 3.375rem;
 	width: 100%;
 	max-width: 80%;
-	margin: 0
+	margin: 0;
+	color: #e3e3e3;
 }
 
 .ds-resume-section p {
@@ -301,19 +345,14 @@ img {
 	border: 1px solid #ce72f3;
 	letter-spacing: 3px;
 	text-transform: uppercase;
-	font-size: 0.75rem;
+	font-size: 1rem;
 	padding: 0.875rem 1.25rem;
-	margin-top: 30px
+	
 }
 
 .ds-download-button i {
 	font-size: 1.125rem;
 	vertical-align: middle;
-}
-
-.ds-download-button:hover {
-	color: #000;
-	background-color: #ce72f3
 }
 
 .ds-email-button {
@@ -333,8 +372,9 @@ img {
 }
 
 .ds-download-button:hover {
-	color: #000;
-	background-color: #ce72f3
+	color: #2a2a2a;
+	background-color: #ce72f3;
+	border: 1px solid #2a2a2a;
 }
 
 /*-----------------------------------------------------------------
@@ -417,7 +457,7 @@ img {
 }
 
 .ds-testimonials-loop section {
-	margin-top: 3.75rem
+	margin-top: 0rem
 }
 
 .ds-testimonials-loop section span {
@@ -531,7 +571,7 @@ img {
 ----------------------------------------------------------------*/
 .ds-footer {
 	padding: 2.5rem 0;
-	color: #CECECE;
+	color: #2a2a2a;
 	font-size: 1.25rem;
 	text-align: center;
 }
@@ -554,7 +594,7 @@ img {
 }
 
 .award {
-	background-color: #afd7e0;
+	background-color: #cfeef6;
 	color: #000;
 	font-weight: 500;
 	width: fit-content;
@@ -566,7 +606,7 @@ img {
 }
 
 .back, .next {
-	color: #CECECE;
+	color: #9a9a9a;
 	font-size: 1.25rem;
 	vertical-align: middle;
 	text-decoration: none;
@@ -623,6 +663,48 @@ img {
  XS Style @media (max-width: 767px) 
 -------------------------------------------------------------------------------*/
 @media (max-width: 767px) {
+
+	.ds-logo {
+		text-align: center;
+	}
+
+	.nav-bar {
+		text-align: center;
+		margin-top: 4rem;
+		margin-right: 0;
+		position:relative;
+		left: 0;
+		margin: 10px;
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.nav-bar a {
+		font-size: 14px;
+		margin: 0;
+	}
+
+	.ds-download-button {
+		font-size: 14px;
+		padding: 0.5rem;
+	}
+
+	.intro {
+		margin-top: 0.5rem;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.ri-arrow-down-line {
+		display: none;
+	}
+
+	.headshot {
+		height: 250px;
+		width: 250px;
+	}
 
 	span {
 		padding: 0;
@@ -691,7 +773,7 @@ img {
 	.ds-projects-section,
 	.ds-testimonials-section,
 	.ds-email-section {
-		padding: 3.5rem 0
+		padding: 3.5rem 0.5rem;
 	}
 
 	.ds-resume-section h2,
@@ -773,5 +855,9 @@ img {
 @media (max-width: 1300px) {
 	.ds-image-shadow {
 		box-shadow: 20px 20px #ce72f3;
+	}
+
+	.intro {
+		padding-left: 1.5rem;
 	}
 }
