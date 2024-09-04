@@ -198,8 +198,23 @@ img {
 }
 
 .nav-bar a {
-	text-decoration: none;
+	
 	margin-right: 10px;
+}
+
+.current-link {
+	text-decoration: underline; 
+	text-decoration-thickness: 1.5px; 
+	text-underline-offset: 8px; 
+	text-decoration-color: #2a2a2a; 
+	background: radial-gradient(50% 50% at 50% 50%, #ffdeea 0%, rgba(253, 228, 243, 0) 100%);
+}
+
+.current-link:hover {
+	text-decoration: underline; 
+	text-decoration-thickness: 1.5px; 
+	text-underline-offset: 8px; 
+	text-decoration-color: #ff228d;
 }
 
 .nav-link {
@@ -208,7 +223,8 @@ img {
 }
 
 .nav-link:hover {
-	color: #ff228d
+	color: #ff228d;
+	text-decoration-color: #ff228d;
 }
 
 .ds-logo a {
@@ -257,7 +273,7 @@ img {
 
 .ds-banner-hed {
 	font-size: 5.3125rem;
-	line-height: 5rem
+	line-height: 5rem;
 }
 
 .ds-image-shadow {
@@ -293,6 +309,22 @@ img {
 
 /*.ds-banner-left{display: flex; justify-content: space-between; flex-direction: column;}*/
 
+.underline {
+	color: #2a2a2a;
+	text-decoration:underline;
+	text-decoration-style:wavy;
+	text-decoration-color: #ff228d;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 10px;
+}
+
+.underline:hover {
+	color: #ffdeea;
+	text-decoration: underline;
+	text-decoration-style:wavy;
+	text-decoration-thickness: 2px;
+	text-decoration-color:#ffdeea;
+}
 
 .ds-social {
 	list-style: none;
@@ -418,9 +450,9 @@ img {
 }
 
 .ds-download-button:hover {
-	color: #2a2a2a;
+	color: #ffffff;
 	background-color: #ff228d;
-	border: 1px solid #2a2a2a;
+	border: 1px solid #ff228d;
 }
 
 /*-----------------------------------------------------------------
