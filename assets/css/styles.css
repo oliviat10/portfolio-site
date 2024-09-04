@@ -69,7 +69,7 @@ a {
 }
 
 .proj-name:hover {
-	color: #ce72f3;
+	color: #ff228d;
 }
 
 .proj-text {
@@ -208,7 +208,7 @@ img {
 }
 
 .nav-link:hover {
-	color: #ce72f3
+	color: #ff228d
 }
 
 .ds-logo a {
@@ -230,12 +230,29 @@ img {
 ----------------------------------------------------------------*/
 .intro-banner {
 	text-align: center;
+	background: radial-gradient(50% 50% at 50% 50%, #ffdeea 0%, rgba(253, 228, 243, 0) 100%);
 }
 
 .intro {
 	text-align: left;
 	margin-bottom: 5rem;
-	padding-left: 12rem;
+	/*padding-left: 12rem;
+	margin-right: 12rem;*/
+}
+
+.box {
+	border: 1px solid black;
+	border-radius: 30px;
+	background-color: white;
+	padding: 40px;
+	width: 70%;
+	box-shadow: 20px 20px #ffdeea;
+}
+
+.ds-banner .intro .intro-banner .container {
+	align-items: center;
+    justify-content: center;
+	align-content: center;
 }
 
 .ds-banner-hed {
@@ -245,11 +262,11 @@ img {
 
 .ds-image-shadow {
 	border: 1px solid #000;
-	border-radius: 0px;
+	border-radius: 8px;
 }
 
 .rumii-proj {
-	box-shadow: 30px 30px #ff3e8b;
+	box-shadow: 30px 30px #ff228d;
 }
 
 .siop-proj {
@@ -268,6 +285,10 @@ img {
 	margin-left: 10px;
 	height: 320px;
 	width: 320px;
+}
+
+.img-figure {
+	margin-right: 0;
 }
 
 /*.ds-banner-left{display: flex; justify-content: space-between; flex-direction: column;}*/
@@ -290,25 +311,26 @@ img {
 
 #bottom a {
 	background-color: #000;
-	color: #ce72f3;
+	color: #ff228d;
 	text-decoration: none;
 }
 
 .ds-social a {
 	width: 30px;
 	height: 30px;
-	background-color: #2a2a2a;
+	background-color: #ffffff;
+	border: 1.5px solid #000;
 	border-radius: 100%;
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 1.25rem;
-	color: #ce72f3;
+	color: #000;
 }
 
 .ds-social li:hover a {
-	background-color: #ce72f3;
+	background-color: #ff228d;
 	color: #2a2a2a;
 }
 
@@ -363,12 +385,13 @@ img {
 
 .ds-download-button {
 	display: inline-block;
-	color: #ce72f3;
-	border: 1px solid #ce72f3;
+	color: #ff228d;
+	border: 1px solid #ff228d;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	font-size: 1rem;
 	padding: 0.875rem 1.25rem;
+	border-radius: 2px;
 	
 }
 
@@ -380,12 +403,13 @@ img {
 .ds-email-button {
 	display: inline-block;
 	color: #000000;
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	font-size: 0.75rem;
 	padding: 0.875rem 1.25rem;
-	margin-top: 15px
+	margin-top: 15px;
+	border-radius: 2px;
 }
 
 .ds-download-button i {
@@ -395,7 +419,7 @@ img {
 
 .ds-download-button:hover {
 	color: #2a2a2a;
-	background-color: #ce72f3;
+	background-color: #ff228d;
 	border: 1px solid #2a2a2a;
 }
 
@@ -414,7 +438,7 @@ img {
 }
 
 .ds-projects-loop:hover figure img.rumii-proj {
-	box-shadow: 20px 20px #ff3e8b;
+	box-shadow: 20px 20px #ff228d;
 }
 
 .ds-projects-loop:hover figure img.siop-proj {
@@ -440,7 +464,7 @@ img {
 	display: block;
 	justify-content: center;
 	align-items: center;
-	color: #ce72f3;
+	color: #ff228d;
 	font-size: 1.125rem;
 	text-align: center;
 	opacity: 0
@@ -483,7 +507,7 @@ img {
 	display: block;
 	font-family: 'Space Grotesk';
 	text-transform: uppercase;
-	color: #ce72f3;
+	color: #ff228d;
 	font-weight: 600;
 	letter-spacing: 3px;
 	font-size: 0.75rem;
@@ -534,8 +558,8 @@ img {
 }
 
 .ds-testimonials-slider .slick-arrow:hover {
-	color: #ce72f3;
-	border-color: #ce72f3;
+	color: #ff228d;
+	border-color: #ff228d;
 	background-color: #000;
 }
 
@@ -570,7 +594,7 @@ img {
   }
   
   .slick-dots .slick-active button:before {
-	color: #ce72f3; /* Active dot color */
+	color: #ff228d; /* Active dot color */
 	font-size: 22px; /* Slightly larger size for active dot */
   }
 
@@ -579,7 +603,7 @@ img {
 ----------------------------------------------------------------*/
 .ds-email-section {
 	padding: 7.5rem 0;
-	background-color: #ce72f3;
+	background-color: #ffdeea;
 	text-align: center;
 }
 
@@ -647,7 +671,7 @@ img {
 }
 
 .back:hover, .next:hover {
-	color: #ce72f3;
+	color: #ff228d;
 }
 
 .center {
