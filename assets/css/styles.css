@@ -68,7 +68,7 @@ a {
 	color: #2a2a2a;
 }
 
-.proj-name:hover {
+.proj-name:hover, .pink-link:hover {
 	color: #ff228d;
 }
 
@@ -279,6 +279,10 @@ hr {
 	align-items: center;
     justify-content: center;
 	align-content: center;
+}
+
+.about-page {
+	margin-left: 14%;
 }
 
 .ds-banner-hed {
