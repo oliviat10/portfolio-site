@@ -196,6 +196,15 @@ hr {
 	margin-bottom: 0rem;
 }
 
+.line {
+  width: 100%;;
+  height: 0;
+  border: 0.75px solid #C4C4C4;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display:inline-block;
+}
+
 .nav-bar {
 	justify-content: space-between;
 	position: absolute; 
@@ -281,8 +290,13 @@ hr {
 	align-content: center;
 }
 
+.project-page {
+	width: 75%;
+	margin: auto;
+}
+
 .about-page {
-	margin-left: 14%;
+	margin-left: 14%; /*FIX THIS*/
 }
 
 .ds-banner-hed {
@@ -686,8 +700,15 @@ hr {
 	color: #CECECE
 }
 
-.details {
-	padding: 10px;
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+
+.grid-item {
+	padding: 20px;
+	text-align: center;
 }
 
 .ds-footer a:hover {
@@ -738,10 +759,9 @@ hr {
 }
 
 .icon {
-	font-size: 20px;
+	font-size: 24px;
 	border: 2px solid #ffffff;
 	border-radius: 50%;
-	padding: 3px;
 }
 
 .fade {
