@@ -77,6 +77,10 @@ a {
 	padding-left: 10px;
 }
 
+.proj-section-header {
+	font-size: 50px;
+}
+
 iframe {
 	border: 0;
 	outline: none;
@@ -704,6 +708,7 @@ hr {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 10px;
+	grid-template-columns: repeat(auto-fill, minmax(250px, max-content));
 }
 
 .grid-item {
