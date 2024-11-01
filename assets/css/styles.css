@@ -43,6 +43,7 @@ body {
 	font-size: var(--font_14);
 }
 
+
 a,
 a:hover,
 a:focus,
@@ -216,7 +217,6 @@ hr {
     right: 10px;
     margin: 10px;
 	display: flex;
-	margin-right: 60px;
 }
 
 .nav-bar a {
@@ -271,6 +271,7 @@ hr {
 	background: radial-gradient(65% 65% at 50% 50%, #ffdeea 0%, rgba(253, 228, 243, 0) 100%);
 }
 
+
 .intro {
 	text-align: left;
 	margin-bottom: 5rem;
@@ -292,6 +293,7 @@ hr {
 	align-items: center;
     justify-content: center;
 	align-content: center;
+	width: 75%;
 }
 
 .project-page {
